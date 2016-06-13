@@ -12,7 +12,7 @@ $(function(){
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {
             console.log(anchorLink, index, slideAnchor, slideIndex);
         (function() {
-          alert(slideAnchor)
+          // alert(slideAnchor)
             var nowTime = new Date().getTime();
             var stayTime = nowTime - startStayingTime;
             // 重置现在时间
