@@ -576,6 +576,7 @@ ul.about-info {
 li.about-grid-info {
 	float: left;
 }
+
 .athue{
 	width: 35px;
 	height: 37px;
@@ -626,12 +627,25 @@ li.athor-name h1 span {
 	color: #1f2021;
 	line-height: 1.8em;
 	font-size: 1em;
+	font-family: '微软雅黑';
 }
+.about-us hr{
+	border: 0;
+    border-bottom: 1px solid #A6A6A6;
+}
+
 .about-us p {
 	color: #656262;
 	line-height: 1.8em;
 	font-size: 1em;
 	font-weight: 600;
+}
+.about-us .end{
+	padding: 1em 0;
+}
+.about-us .end h1{
+	text-align: center;
+    font-weight: bold;
 }
 	.about-ps {
 	margin-top: 0.5em;
