@@ -31,7 +31,7 @@ img{max-width:100%;}
 html, body{
    font-size: 100%;
    background:#ffffff;
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif,'微软雅黑';
 }
 body a{
 	font-family: 'Open Sans', sans-serif;
@@ -597,9 +597,13 @@ li.athor-name {
 	margin-left: 18px;
 	margin-top: 23px;
 }
-li.athor-name h1 {
+li.athor-name h1,li.athor-name h2{
 	font-size: 18px;
 	font-weight:bold;
+	font-family: '微软雅黑'; 
+}
+li.athor-name h2{
+	font-size:14px;
 }
 li.athor-name h1 span {
 	color: #F96668;
@@ -619,7 +623,7 @@ li.athor-name h1 span {
 	box-shadow:0 0 2px#A6A6A6;
 }
 .about-us {
-	color: #999;
+	color: #1f2021;
 	line-height: 1.8em;
 	font-size: 1em;
 }
